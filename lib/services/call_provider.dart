@@ -3,7 +3,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter_webrtc/flutter_webrtc.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:webrtc_app/socket_io_provider.dart';
+import 'package:webrtc_app/socket.io/socket_io_provider.dart';
 
 class CallProvider with ChangeNotifier {
   RTCPeerConnection? _peerConnection;

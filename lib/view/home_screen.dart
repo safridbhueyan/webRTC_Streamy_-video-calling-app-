@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_webrtc/flutter_webrtc.dart';
-import 'call_provider.dart';
-import 'socket_io_provider.dart';
+import '../services/call_provider.dart';
+import '../socket.io/socket_io_provider.dart';
 
 class CallScreen extends StatelessWidget {
   const CallScreen({super.key});

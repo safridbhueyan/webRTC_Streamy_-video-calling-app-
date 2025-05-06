@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:webrtc_app/home_screen.dart';
-import 'package:webrtc_app/socket_io_provider.dart';
+import 'package:webrtc_app/view/home_screen.dart';
+import 'package:webrtc_app/socket.io/socket_io_provider.dart';
 
 class CallWrapper extends StatefulWidget {
   const CallWrapper({super.key});
